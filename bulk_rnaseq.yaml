@@ -1,0 +1,659 @@
+details:
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44697_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44697c.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR44697c
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44697_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44697d.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR44697d
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44699_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44699c.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR44699c
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44699_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44699d.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR44699d
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44702_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44702c.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR44702c
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44702_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44702d.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR44702d
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44703_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44703c.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR44703c
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44703_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44703d.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR44703d
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44705_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44705c.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR44705c
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR44705_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44705d.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR44705d
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50548_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50548a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50548a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50548_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50548b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50548b
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50549_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50549a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50549a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50549_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50549b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50549b
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50550_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50550a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50550a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50550_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50550b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50550b
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50551_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50551a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50551a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50551_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50551b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50551b
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50552_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50552a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50552a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50552_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50552b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50552b
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50553_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50553a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50553a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50553_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50553b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50553b
+    phenotype: normal
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50554_T
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50554a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: tumor
+    panel: PR50554a
+    phenotype: tumor
+- algorithm:
+    aligner: star
+    bcbiornaseq:
+      interesting_groups:
+      - phenotype
+      organism: homo sapiens
+    expression_caller:
+    - salmon
+    - kallisto
+    fusion_caller:
+    - arriba
+    - pizzly
+    quality_format: standard
+    quantify_genome_alignments: true
+    strandedness: auto
+    tools_on:
+    - bcbiornaseq
+    trim_reads: false
+  analysis: RNA-seq
+  description: PR50554_N
+  files:
+  - /ilifu/bio/projects/vp-virus/bcbio/RNASeq_analysis/Bulk_RNAseq/input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR50554b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    category: normal
+    panel: PR50554b
+    phenotype: normal
+fc_name: bulk_rnaseq
+resources:
+  star:
+    cores: 10
+    jvm_opts:
+    - -Xms4G
+    - -Xmx8G
+    memory: 10G
+upload:
+  dir: ../final

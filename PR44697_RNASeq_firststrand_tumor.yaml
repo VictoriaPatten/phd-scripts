@@ -1,0 +1,20 @@
+details:
+- algorithm:
+    aligner: star
+    strandedness: firststrand
+    variantcaller: vardict
+  analysis: RNA-seq
+  description: PR44697-tumor
+  files: ../input/HUMAN_1000Genomes_hs37d5_RNA_seq_PR44697d.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    batch: PR44697
+fc_name: PR44697
+fc_date: '2022-04-25'
+upload:
+  dir: ../final_tumor
+resources:
+  default:
+    memory: 8G
+    cores: 8
+    jvm_opts: ["-Xms4G", "-Xmx8G"]
