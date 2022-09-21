@@ -19,4 +19,3 @@ java -jar SnpSift.jar extractFields ../snpSiftFilter_PD39457/PD39457-tumor-vardi
 
 
 
-java -jar SnpSift.jar filter "( CHROM = 'chr7' ) && ( ANN[*].GENE = 'MUC3A' ) && ( ANN[*].IMPACT = 'HIGH' )" ../snpSiftFilter_PD39457/PD39457-tumor-vardict.vcf | java -jar SnpSift.jar extractFields - CHROM POS REF ALT STATUS "ANN[*].EFFECT"
