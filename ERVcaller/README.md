@@ -1,4 +1,4 @@
-#All scripts shown are example scripts and were ammended for each patinet number respectively.
+#All scripts shown are example scripts and were ammended for each patient number respectively.
 
 erv.sh
 This is an example script of how each tumour and normal sample was run through the ERVcaller pipeline
