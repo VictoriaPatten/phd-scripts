@@ -1,4 +1,4 @@
-#All scripts shown are example scripts and were ammended for each patinet number respectively.
+#All scripts shown are example scripts and were ammended for each patient number respectively.
 
 bcbio_config.yaml
 This is an example configuration script of how tumour-normal pairs were run through the bcbio pipeline to obtain database files of somatic variants. 
