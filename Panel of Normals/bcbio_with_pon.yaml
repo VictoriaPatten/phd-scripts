@@ -1,0 +1,50 @@
+details:
+- algorithm:
+    aligner: bwa
+    mark_duplicates: true
+    remove_lcr: true
+    tools_on: gemini
+    variantcaller:
+      somatic: mutect2
+      germline: freebayes
+    svcaller: lumpy
+    effects: snpeff
+    effects_transcripts: canonical_cancer
+    vcfanno: [gemini,somatic]
+  analysis: variant2
+  description: PD39448-normal
+  files: ../input/HUMAN_1000Genomes_hs37d5_genomic_PD39448b.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    batch: bcbio
+    phenotype: normal
+- algorithm:
+    aligner: bwa
+    mark_duplicates: true
+    remove_lcr: true
+    tools_on: gemini
+    background: ../input/pon_all_qsorted.vcf.gz
+    variantcaller:
+      somatic: mutect2
+      germline: freebayes
+    svcaller: lumpy
+    effects: snpeff
+    effects_transcripts: canonical_cancer
+    vcfanno: [gemini,somatic]
+  analysis: variant2
+  description: PD39448-tumor
+  files: ../input/HUMAN_1000Genomes_hs37d5_genomic_PD39448a.dupmarked.bam
+  genome_build: hg38
+  metadata:
+    batch: bcbio
+    phenotype: tumor
+fc_date: '2023-03-06'
+fc_name: PD39448
+upload:
+  dir: ../final_mutect2_ALL_PON
+resources:
+  default:
+    memory: 8G
+    cores: 8
+    jvm_opts: ["-Xms4G", "-Xmx8G"]
+    
